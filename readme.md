@@ -2,7 +2,7 @@
 
 This [Argos](https://github.com/p-e-w/argos) script shows by [USBGuard](https://usbguard.github.io/) blocked devices and allows the easy acceptance of them.
 
-![Screenshot](https://github.com/bertschneider/argos-usbguard/screenshot.png)
+![Screenshot](https://raw.githubusercontent.com/bertschneider/argos-usbguard/master/screenshot.png)
 
 ## Features
 
