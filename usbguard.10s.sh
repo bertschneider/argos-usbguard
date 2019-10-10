@@ -21,7 +21,7 @@ if [ $BLOCK_COUNT != '0' ]; then
             echo "--Name: ${BASH_REMATCH[6]}"
             echo "--Hash: ${BASH_REMATCH[7]}"
 
-            ALLOW_COMMAND=" sudo -Sk -p '' <<< ${PASSWORD} usbguard allow-device ${BASH_REMATCH[1]}"
+            ALLOW_COMMAND=" sudo -Sk -p '' <<< ${PASSWORD} usbguard allow-device -p ${BASH_REMATCH[1]}"
             echo "--:+1: ALLOW :+1:| emojize=true color='green' refresh=true terminal=false bash=\"${ALLOW_COMMAND}\""
         fi
     done <<< $BLOCKED
